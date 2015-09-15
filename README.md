@@ -90,13 +90,13 @@ Simon Mille, Alicia Burga, and Leo Wanner. AnCora-UPF: A multi-level annotation 
 http://www.aclweb.org/anthology/W/W13/W13-37.pdf#page=225
 
 * Examples of uses of the parallel SSynt-DSynt corpora in some applications:
-Miguel Ballesteros, Bernd Bohnet, Simon Mille, and Leo Wanner. 2015. Data-driven deep-syntactic parsing. In Natural Language Engineering, 1-36. Cambridge University Press. 
+** Miguel Ballesteros, Bernd Bohnet, Simon Mille, and Leo Wanner. 2015. Data-driven deep-syntactic parsing. In Natural Language Engineering, 1-36. Cambridge University Press. 
 http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=9914630&fileId=S1351324915000285
 
-Miguel Ballesteros, Bernd Bohnet, Simon Mille, Leo Wanner. 2015. Data-driven sentence generation with non-isomorphic trees. In Proceedings of NAACL-HLT, 387-397, Denver, CO, USA. 
+** Miguel Ballesteros, Bernd Bohnet, Simon Mille, Leo Wanner. 2015. Data-driven sentence generation with non-isomorphic trees. In Proceedings of NAACL-HLT, 387-397, Denver, CO, USA. 
 http://www.aclweb.org/anthology/N15-1042
 
-Bernd Bohnet, Simon Mille, Benoît Favre and Leo Wanner. 2011. StuMaBa: From Deep representation to Surface. In Proceedings of ENLG’11, Surface-Generation Shared Task, 232-235. Nancy, France.
+** Bernd Bohnet, Simon Mille, Benoît Favre and Leo Wanner. 2011. StuMaBa: From Deep representation to Surface. In Proceedings of ENLG’11, Surface-Generation Shared Task, 232-235. Nancy, France.
 https://aclweb.org/anthology/W/W11/W11-2835.pdf
 
 
