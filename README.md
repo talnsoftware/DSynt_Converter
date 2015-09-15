@@ -47,6 +47,8 @@ V0.6:
 --------------------------
 How to run the conversion
 --------------------------
+(0) Download the .jar from the "release" section of the folder.
+
 (i) IMPORTANT
 * Input file should be in the CoNll 2009 format; see http://ufal.mff.cuni.cz/conll2009-st/task-description.html (predicted columns and the columns after the 14th are ignored).
 * All empty lines (betwen two consecutive sentences) must be empty! No spaces or tabs!
