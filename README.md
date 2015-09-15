@@ -6,7 +6,7 @@ README DSYNT CONVERTER
 ======================
 
 Welcome to DSynt Converter!
-(V0.7) - 09/09/2015
+(v0.7) - 09/09/2015
 Authors: Simon Mille, Roberto Carlini (firstname.lastname@upf.edu)
 
 
@@ -33,12 +33,12 @@ The tool is developed on two independent aspects:
 --------
 Releases
 --------
-V0.7:
+v0.7:
 * English
   - Input: Dependency version of Penn Treebank, as in the 2009 CoNLL Shared Task
   - Version of graph-transduction grammars: V06
 
-V0.6:
+v0.6:
 * English
   - Input: Dependency version of Penn Treebank, as in the 2009 CoNLL Shared Task
   - Version of graph-transduction grammars: V02/V03
@@ -47,7 +47,7 @@ V0.6:
 --------------------------
 How to run the conversion
 --------------------------
-(0) Download the .jar from the "release" section of the folder.
+(0) Download the .jar from the "release" section of the folder, towards the top of this page.
 
 (i) IMPORTANT
 * Input file should be in the CoNll 2009 format; see http://ufal.mff.cuni.cz/conll2009-st/task-description.html (predicted columns and the columns after the 14th are ignored).
