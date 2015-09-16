@@ -1,10 +1,10 @@
 # DSynt_Converter
 This tool is a graph transducer that creates an alternative version of an input dependency treebank in the CoNLL09 format, called deep-syntactic (DSynt) annotation.
 
-======================
-README DSYNT CONVERTER
-======================
 
+----------
+  README
+----------
 Welcome to DSynt Converter!
 (v0.7) - 16/09/2015
 Authors: Simon Mille, Roberto Carlini (firstname.lastname@upf.edu)
@@ -25,7 +25,7 @@ Introduction
   (i) the resources (grammars and dictionaries), which contain all the linguistic knowledge; the updates affect the content of the produced file;
   (ii) the graph transduction environment, which uses the resources in order to generate the output; the updates affect the way the file is produced.
 
-* The conversion is not instantaneous; it takes a few minutes to finish. For V0.7, on a 64-bit Intel Core i5-3470 CPU @ 3.20GHz with 8BG RAM, the conversion of a 1,000,000 word file can take about 3 hours.
+* The conversion is not instantaneous; it takes a few minutes to finish. For v0.7, on a 64-bit Intel Core i5-3470 CPU @ 3.20GHz with 8BG RAM, the conversion of a 1,000,000 word file can take about 3 hours.
 
 
 --------
