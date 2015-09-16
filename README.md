@@ -105,11 +105,9 @@ https://aclweb.org/anthology/W/W11/W11-2835.pdf
 ========================
  ABOUT GRAMMAR VERSIONS
 ========================
-<b>
----
-V06
----
-</b>
+----
+<b>V06</b>
+----
 !!!USED FOR DEEP PARSING EXPERIMENTS IN 2014-2015!!!
 Updates with respect to V05:
 * unfixed coordinations so as to keep a better alignment of SSynt and DSynt nodes.
@@ -118,61 +116,50 @@ Updates with respect to V05:
 * PTB:
   - train: 711,543 nodes
   - eval: 42,480 nodes
-  - 
-<b>
----
-V05
----
-</b>
+
+----
+<b>V05</b>
+----
 Updates with respect to V04:
 * fixed coordinations: now there's always a coordinating conjunction between two conjuncts (before conjuncts were directly linked by COORD if there was a comma in the sentence)
 * PTB:
   - train: 714,791 nodes
   - eval: 42,620 nodes
-  - 
-<b>
----
-V04
----
-</b>
+
+----
+<b>V04</b>
+----
 Updates with respect to V03:
 * we now remove all governed prepositions that we extracted automatically from PropBank and NomBank (around 12,000 predicates and 10,000 prepositions concerned), using disambiguated predicates (for "open.01", we check "open.01" in the dico; for "open.02", we check "open.02", etc.).
 * if a predicate is not found in the dictionary (i.e. if it is not disambiguated in the treebank (e.g. "open") or if there is no entry for it with a sense ID (e.g. "open.27")), we remove the prepositions of the sense ID "01" of the corresponding entry (e.g. "open.01" in the case of both examples).
 * PTB:
   - train: 711,491 nodes
   - eval: 42,467 nodes
-  - 
-<b>
----
-V03
----
-</b>
+
+----
+<b>V03</b>
+----
 Updates with respect to V02:
 * we now remove some governed prepositions that we extracted automatically from PropBank and NomBank (around 12,000 predicates and 10,000 prepositions concerned).
 * we don't look at disambiguated predicates, and always remove the prepositions of the sense ID "01" of a word (e.g. for "open", we check "open.01" in the dico).
 * PTB:
   - train: 714,084 nodes
   - eval: 42,619 nodes
-  - 
-<b>
----
-V02
----
-</b>
+
+----
+<b>V02</b>
+----
 Updates with respect to V01:
 * we also remove governed prepositions for the 150 most frequent predicates from PropBank and NomBank (extracted manually).
-* 
-<b>
----
-V01
----
-</b>
+
+----
+<b>V01</b>
+----
 This corpus has been obtained thanks to a handcrafted mapping grammar applied to the CoNLL09 PTB (see MATE project in this folder).
 For this version of the corpus, we removed auxiliaries, determiners, THAT complementizers, and TO infinitive markers.
 * PTB:
   - train: 734,365 nodes
   - eval: 43,795 nodes
-
 
 ----------
  GENERAL
