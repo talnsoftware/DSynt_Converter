@@ -34,12 +34,12 @@ Releases
 <b>v0.7</b>
 * English
   - Input: Dependency version of Penn Treebank, as in the 2009 CoNLL Shared Task
-  - Version of graph-transduction grammars: V06
+  - Version of graph-transduction grammars: v0.6 (see at the bottom of the page)
 
 <b>v0.6</b>
 * English
   - Input: Dependency version of Penn Treebank, as in the 2009 CoNLL Shared Task
-  - Version of graph-transduction grammars: V02/V03
+  - Version of graph-transduction grammars: v0.2/v0.3
 
 
 --------------------------
@@ -101,11 +101,9 @@ http://www.aclweb.org/anthology/N15-1042
 https://aclweb.org/anthology/W/W11/W11-2835.pdf
 
 
-
-========================
- ABOUT GRAMMAR VERSIONS
-========================
-
+------------------
+ Grammar versions
+------------------
 <b>v0.6</b>
 !!!USED FOR DEEP PARSING EXPERIMENTS IN 2014-2015!!!
 Updates with respect to v0.5:
