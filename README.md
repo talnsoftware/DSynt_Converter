@@ -118,6 +118,7 @@ Updates with respect to V05:
 * PTB:
   - train: 711,543 nodes
   - eval: 42,480 nodes
+  - 
 <b>
 ---
 V05
@@ -128,6 +129,7 @@ Updates with respect to V04:
 * PTB:
   - train: 714,791 nodes
   - eval: 42,620 nodes
+  - 
 <b>
 ---
 V04
@@ -139,6 +141,7 @@ Updates with respect to V03:
 * PTB:
   - train: 711,491 nodes
   - eval: 42,467 nodes
+  - 
 <b>
 ---
 V03
@@ -150,6 +153,7 @@ Updates with respect to V02:
 * PTB:
   - train: 714,084 nodes
   - eval: 42,619 nodes
+  - 
 <b>
 ---
 V02
@@ -157,6 +161,7 @@ V02
 </b>
 Updates with respect to V01:
 * we also remove governed prepositions for the 150 most frequent predicates from PropBank and NomBank (extracted manually).
+* 
 <b>
 ---
 V01
