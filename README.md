@@ -6,7 +6,7 @@ README DSYNT CONVERTER
 ======================
 
 Welcome to DSynt Converter!
-(v0.7) - 09/09/2015
+(v0.7) - 16/09/2015
 Authors: Simon Mille, Roberto Carlini (firstname.lastname@upf.edu)
 
 
