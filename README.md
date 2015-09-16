@@ -6,7 +6,9 @@ This tool is a graph transducer that creates an alternative version of an input 
   README
 ----------
 Welcome to DSynt Converter!
+
 (v0.7) - 16/09/2015
+
 Authors: Simon Mille, Roberto Carlini (firstname.lastname@upf.edu)
 
 
@@ -105,7 +107,9 @@ https://aclweb.org/anthology/W/W11/W11-2835.pdf
  Grammar versions
 ------------------
 <b>v0.6</b>
+
 !!!USED FOR DEEP PARSING EXPERIMENTS IN 2014-2015!!!
+
 Updates with respect to v0.5:
 * unfixed coordinations so as to keep a better alignment of SSynt and DSynt nodes.
 * fixed ID issues: now (hopefully) all SSynt nodes (but punctuations) have an idx in DSynt
@@ -115,6 +119,7 @@ Updates with respect to v0.5:
   - eval: 42,480 nodes
 
 <b>v0.5</b>
+
 Updates with respect to v0.4:
 * fixed coordinations: now there's always a coordinating conjunction between two conjuncts (before conjuncts were directly linked by COORD if there was a comma in the sentence)
 * PTB:
@@ -122,6 +127,7 @@ Updates with respect to v0.4:
   - eval: 42,620 nodes
 
 <b>v0.4</b>
+
 Updates with respect to v0.3:
 * we now remove all governed prepositions that we extracted automatically from PropBank and NomBank (around 12,000 predicates and 10,000 prepositions concerned), using disambiguated predicates (for "open.01", we check "open.01" in the dico; for "open.02", we check "open.02", etc.).
 * if a predicate is not found in the dictionary (i.e. if it is not disambiguated in the treebank (e.g. "open") or if there is no entry for it with a sense ID (e.g. "open.27")), we remove the prepositions of the sense ID "01" of the corresponding entry (e.g. "open.01" in the case of both examples).
@@ -130,6 +136,7 @@ Updates with respect to v0.3:
   - eval: 42,467 nodes
 
 <b>v0.3</b>
+
 Updates with respect to v0.2:
 * we now remove some governed prepositions that we extracted automatically from PropBank and NomBank (around 12,000 predicates and 10,000 prepositions concerned).
 * we don't look at disambiguated predicates, and always remove the prepositions of the sense ID "01" of a word (e.g. for "open", we check "open.01" in the dico).
@@ -138,10 +145,12 @@ Updates with respect to v0.2:
   - eval: 42,619 nodes
 
 <b>v0.2</b>
+
 Updates with respect to v0.1:
 * we also remove governed prepositions for the 150 most frequent predicates from PropBank and NomBank (extracted manually).
 
 <b>v0.1</b>
+
 For this version of the corpus, we removed auxiliaries, determiners, THAT complementizers, and TO infinitive markers.
 * PTB:
   - train: 734,365 nodes
