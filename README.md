@@ -45,7 +45,7 @@ v0.6:
 --------------------------
 How to run the conversion
 --------------------------
-(0) Download the .jar from the "release" section of the folder, towards the top of this page.
+(0) Download the .jar from the "release" section of the folder; if it does not appear towards the top of this page, click on "DSynt_Converter" in the path "talnsoftware/DSynt_Converter".
 
 (i) IMPORTANT
 * Input file should be in the CoNll 2009 format; see http://ufal.mff.cuni.cz/conll2009-st/task-description.html (predicted columns and the columns after the 14th are ignored).
