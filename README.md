@@ -20,9 +20,11 @@ Java 1.6 or posterior
 Introduction
 -------------
 * Structures
+
 The deep-syntactic annotation is a connected tree which aims at containing only meaningful words and both predicate-argument (I, II, III, etc.) and syntactic (modifier, coordination) relations. The nodes in the original (superficial) and deep annotations are connected through their IDs. In the FEATS column of the output CoNLL file, "id0" indicates the deep identifier of a word, while "id1" indicates the ID of the superficial node it corresponds to. There are less nodes in DSynt than in SSynt, since the latter contains all the words of a sentence. Hence, a DSynt node can correspond to several superficial nodes; multiple correspondences are indicated by the presence of the "id2" ("id3", "id4", etc) feature in the FEATS column. The features "definiteness", "voice", "tense", "tem_constituency" in the FEATS column capture the information conveyed by determiners and auxiliaries.
 
 * Tool 
+
 The tool is developed on two independent aspects:
   (i) the resources (grammars and dictionaries), which contain all the linguistic knowledge; the updates affect the content of the produced file;
   (ii) the graph transduction environment, which uses the resources in order to generate the output; the updates affect the way the file is produced.
@@ -51,7 +53,7 @@ How to run the conversion
 
 (i) IMPORTANT
 * Input file should be in the CoNll 2009 format; see http://ufal.mff.cuni.cz/conll2009-st/task-description.html (predicted columns and the columns after the 14th are ignored).
-* All empty lines (betwen two consecutive sentences) must be empty! No spaces or tabs!
+* All empty lines (betwen two consecutive sentences) must be empty! No spaces or tabs! (The evaluation set of the PTB for example can have these tabs)
 * Input file should have .conll extension
 * Input file should be encoded as UTF-8 without BOM
 
