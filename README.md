@@ -92,6 +92,9 @@ References
 Simon Mille, Alicia Burga, and Leo Wanner. AnCora-UPF: A multi-level annotation of Spanish. In Proceedings of the 2nd International Conference on Dependency Linguistics (DepLing), 217-226, Prague, Czech Republic, 2013.
 http://www.aclweb.org/anthology/W/W13/W13-37.pdf#page=225
 
+Miguel Ballesteros, Bernd Bohnet, Simon Mille, and Leo Wanner. 2015. Data-driven deep-syntactic parsing. In Natural Language Engineering, 1-36. Cambridge University Press. 
+http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=9914630&fileId=S1351324915000285
+
 * Examples of uses of the parallel SSynt-DSynt corpora in some applications:
 
 Miguel Ballesteros, Bernd Bohnet, Simon Mille, and Leo Wanner. 2015. Data-driven deep-syntactic parsing. In Natural Language Engineering, 1-36. Cambridge University Press. 
