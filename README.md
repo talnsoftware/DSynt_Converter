@@ -50,7 +50,7 @@ How to run the conversion
 (0) Download the .jar from the "release" section of the folder; if it does not appear towards the top of this page, click on "DSynt_Converter" in the path "talnsoftware/DSynt_Converter".
 
 (i) <b>IMPORTANT!</b>
-* Input file should be in the CoNll 2009 format; see http://ufal.mff.cuni.cz/conll2009-st/task-description.html (predicted columns and the columns after the 14th are ignored).
+* Input file should be in the CoNLL 2009 format; see http://ufal.mff.cuni.cz/conll2009-st/task-description.html (predicted columns and the columns after the 14th are ignored).
 * All empty lines (betwen two consecutive sentences) must be empty! No spaces or tabs! (The evaluation set of the PTB for example can have these tabs)
 * Input file should have .conll extension
 * Input file should be encoded as UTF-8 without BOM
