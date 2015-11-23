@@ -1,6 +1,7 @@
 # DSynt_Converter
 This tool is a graph transducer that creates an alternative version of an input dependency treebank in the CoNLL09 format, called deep-syntactic (DSynt) annotation.
 
+If applied on the output of a dependency parser trained on the Penn Treebank, it should return a deep-syntactic tree; the tool has not been tested yet on a large scale for this purpose.
 
 ----------
   README
